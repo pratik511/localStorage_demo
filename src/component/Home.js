@@ -64,9 +64,9 @@ const Home = () => {
                         </tr>
                     </tbody>
                 )
-                    : <div>
+                    : <td colspan="7">
                         <h1 className='text-center'>Not Found</h1>
-                    </div>
+                    </td>
             }
             </table>
         </div>
